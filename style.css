@@ -22,6 +22,14 @@ div.ImageBackground {
     z-index: -1;
 }
 
+div.textBackground {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    overflow-x: hidden;
+    z-index: 0;
+}
+
 div.Profile {
     position: absolute;
     top:-3%;
