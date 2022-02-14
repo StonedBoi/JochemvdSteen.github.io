@@ -17,6 +17,7 @@ body {
 
 div.ImageBackground {
     position: absolute;
+    left: -1px;
     overflow-x: hidden;
     z-index: -1;
 }
@@ -46,7 +47,7 @@ div.MainAbsoluteText1 {
     height: 100px;
     text-decoration: none; /* Remove underline */
     text-align: center;
-    font-size: 50px; /* Increase font size */
+    font-size: 75px; /* Increase font size */
     color: white; /* White text color */
     border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
   }
