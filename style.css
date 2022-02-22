@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('https://i.imgur.com/z4g2bH5.jpg');
+    background-image: url('https://i.imgur.com/OA9xPQT.png');
     background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position-x: 0px;
@@ -9,6 +9,10 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     z-index: 0;
+}
+
+.index {
+    background-image: url('https://i.imgur.com/z4g2bH5.jpg');
 }
         
 .tab {
@@ -24,7 +28,7 @@ div.ImageBackground {
 
 div.textBackground {
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: 20px;
     overflow-x: hidden;
     z-index: 0;
@@ -43,21 +47,26 @@ div.MainAbsoluteText1 {
     top: 5%;
     left: 40%;
     width: 750px;
-    height: 915px;
+    height: 300px;
 }
 
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
+    background-color: #374e7573;
     bottom: -150px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 50px; /* 15px padding */
+    border-width: 5px;
+    border-color: #4983c9;
     width: 350px; /* Set a specific width */
     height: 100px;
+    opacity: 1;
     text-decoration: none; /* Remove underline */
     text-align: center;
     font-size: 75px; /* Increase font size */
     color: white; /* White text color */
     border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+    border-style: dashed;
   }
   
 #mySidenav a:hover {
@@ -67,15 +76,12 @@ div.MainAbsoluteText1 {
   /* The about link: 20px from the top with a green background */
 #about {
     left: 50px;
-    background-color: #374e75;
 }
   
 #projects {
     left: 535px;
-    background-color: #253364;
 }
   
 #contact {
     left: 1025px;
-    background-color: #683b77;
 }
