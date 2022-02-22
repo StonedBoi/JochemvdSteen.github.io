@@ -50,6 +50,16 @@ div.MainAbsoluteText1 {
     height: 300px;
 }
 
+div.ContactTitle {
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+    color: white;
+    top: 10%;
+    left: 35%;
+    width: 750px;
+    height: 300px;
+}
+
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
     background-color: #374e7573;
