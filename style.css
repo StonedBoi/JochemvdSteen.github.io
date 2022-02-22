@@ -117,9 +117,13 @@ div.ImageBackground {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 18px 12px;
+    padding: 18px 13px;
     text-decoration: none;
     font-size: 20px;
+    border-style: solid;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   }
 
 #mySidenav a {
