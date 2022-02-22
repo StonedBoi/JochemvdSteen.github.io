@@ -40,7 +40,39 @@ div.ImageBackground {
     left: 12%;
 }
         
-.MainAbsoluteText1 {
+.MainAbsoluteText {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    top: 5%;
+    left: 40%;
+    width: 750px;
+    height: 300px;
+}
+
+.AboutTitle {
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+    color: white;
+    top: -7.5%;
+    left: 45%;
+    width: 750px;
+    height: 300px;
+    z-index: 1;
+}
+
+.WorksTitle {
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+    color: white;
+    top: -7.5%;
+    left: 40%;
+    width: 750px;
+    height: 300px;
+    z-index: 1;
+}
+
+.WorksAbsoluteText1 {
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -54,10 +86,11 @@ div.ImageBackground {
     position: absolute;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
     color: white;
-    top: 10%;
-    left: 35%;
+    top: -7.5%;
+    left: 42%;
     width: 750px;
     height: 300px;
+    z-index: 1;
 }
 
 .ContactBG {
