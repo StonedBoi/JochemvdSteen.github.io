@@ -1,18 +1,18 @@
 
 body {
     background-image: url('https://i.imgur.com/OA9xPQT.png');
-    background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position-x: 0px;
     background-position-y: 0px;
     margin: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
     z-index: 0;
 }
 
 .index {
     background-image: url('https://i.imgur.com/z4g2bH5.jpg');
+    overflow-y: hidden;
+    background-repeat: no-repeat;
 }
         
 .tab {
@@ -72,14 +72,45 @@ div.ImageBackground {
     z-index: 1;
 }
 
-.WorksAbsoluteText1 {
+.WorksText1 {
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    top: -10%;
+    left: 85%;
+    width: 650px;
+    height: 300px;
+    z-index: 1;
+}
+
+.ArcadeProject {
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    top: 5%;
-    left: 40%;
+    top: 15%;
+    left: 10%;
     width: 750px;
     height: 300px;
+}
+
+.VideoBorder {
+    border-style:double;
+    border-width: 2px;
+    border-color: purple;
+}
+
+.WorksBG {
+    position: absolute;
+    top: 8.5%;
+    left: 4.5%;
+    width: 90%;
+    height: 1000px;
+    background-color: black;
+    opacity: 0.2;
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: white;
 }
 
 .ContactTitle {
@@ -95,7 +126,7 @@ div.ImageBackground {
 
 .ContactBG {
     position: absolute;
-    top: 8%;
+    top: 8.5%;
     left: 4.5%;
     width: 90%;
     height: 85%;
