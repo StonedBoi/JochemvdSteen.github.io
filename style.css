@@ -112,13 +112,13 @@ div.ImageBackground {
 }
 
 .ArcadeProject:hover {
-    background-image: url(img/Arcade.gif);
+    background-image: url(IMG/Arcade.gif);
 }
 
 .GameJam {
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(img/GameJam.jpg);
+    background-image: url(IMG/GameJam.jpg);
     background-size: 100% 100%;
     color: white;
     top: 70%;
