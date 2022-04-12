@@ -9,8 +9,28 @@ body {
     z-index: 0;
 }
 
+* {box-sizing: border-box}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+h1 {
+    font-size: 30px;
+    font-family:Georgia, serif;
+    font-weight: 600
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .index {
-    background-image: url('https://i.imgur.com/z4g2bH5.jpg');
+    background-image: url('IMG/Purple.jpg');
     overflow-y: hidden;
     background-repeat: no-repeat;
 }
@@ -27,25 +47,25 @@ div.ImageBackground {
 }
 
 .textBackground {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: relative;
+    top: 22px;
+    right: -20px;
     overflow-x: hidden;
     z-index: 0;
 }
 
 .Profile {
-    position: absolute;
-    top:-3%;
+    position: relative;
+    bottom: 625px;
     left: 12%;
 }
         
 .MainAbsoluteText {
-    position: absolute;
+    position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    top: 5%;
-    left: 40%;
+    bottom: 1025px;
+    left: 600px;
     width: 750px;
     height: 300px;
 }
@@ -54,9 +74,30 @@ div.ImageBackground {
     position: absolute;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
     color: white;
-    top: -7.5%;
+    top: -6.75%;
     left: 45%;
     width: 750px;
+    height: 300px;
+    z-index: 1;
+}
+
+.AboutText1 {
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    top: 12%;
+    left: 15%;
+    width: 500px;
+    height: 300px;
+    z-index: 1;
+}
+.AboutText2 {
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    top: 12%;
+    left: 55%;
+    width: 500px;
     height: 300px;
     z-index: 1;
 }
@@ -65,7 +106,7 @@ div.ImageBackground {
     position: absolute;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
     color: white;
-    top: -7.5%;
+    top: -7%;
     left: 40%;
     width: 750px;
     height: 300px;
@@ -170,7 +211,7 @@ div.ImageBackground {
     position: absolute;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
     color: white;
-    top: -1%;
+    top: -0.75%;
     left: 42%;
     width: 750px;
     height: 300px;
@@ -178,11 +219,11 @@ div.ImageBackground {
 }
 
 .ContactText1 {
-    position: absolute;
+    position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    top: 25%;
-    left: 20%;
+    top: 60px;
+    left: 307.2px;
     width: 900px;
     height: 300px;
     z-index: 1;
@@ -204,7 +245,7 @@ div.ImageBackground {
 
 .button-images {
     max-width: 950px;
-    margin: 75px auto;  
+    margin: 25px auto;  
 }
     
 .button-container {
@@ -214,10 +255,7 @@ div.ImageBackground {
     border-radius:50%; 
     overflow:hidden; 
 }
-    
 
-    
-    
 .button-container a {
       transition: all 1s ease-out;
       padding:5%; 
@@ -276,7 +314,7 @@ div.ImageBackground {
 .topnav {
     overflow: hidden;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .topnav a {
@@ -295,11 +333,11 @@ div.ImageBackground {
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
     background-color: #374e7573;
-    bottom: -150px; /* Position them outside of the screen */
+    bottom: -138px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 50px; /* 15px padding */
     border-width: 5px;
-    border-color: #4983c9;
+    border-color: #4a96f3;
     width: 350px; /* Set a specific width */
     height: 100px;
     opacity: 1;
