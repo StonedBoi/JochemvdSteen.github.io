@@ -234,11 +234,58 @@ div.ImageBackground {
     background-image: url(IMG/ARTarget.gif);
 }
 
+.Agile {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(IMG/Silicon.jpg);
+    background-size: 100% 100%;
+    color: white;
+    top: 180%;
+    right: 10%;
+    width: 600px;
+    height: 340px;
+    opacity: 0.7;
+    z-index: 1;
+    border-style:double;
+    border-width: 2px;
+    border-color: purple;
+    box-shadow: 0px 0px 15px pink;
+}
+
+.Agile:hover {
+    background-image: url(IMG/Silicon.gif);
+}
+
+.Notif {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(IMG/Empty.png);
+    background-size: 100% 100%;
+    color: white;
+    top: 235%;
+    left: 10%;
+    width: 600px;
+    height: 340px;
+    opacity: 0.7;
+    z-index: 1;
+    border-style:double;
+    border-width: 2px;
+    border-color: purple;
+    box-shadow: 0px 0px 15px pink;
+}
+
+.Notif:hover {
+    background-image: url(IMG/Empty.png);
+}
+
+
 .glow {
     color: #fff;
-    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    /* animation: glow 1s ease-in-out infinite alternate; */
 }
-  
+
+/*
 @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -248,13 +295,14 @@ div.ImageBackground {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
+*/
 
 .WorksBG {
     position: absolute;
     top: 8.5%;
     left: 4.5%;
     width: 90%;
-    height: 1500px;
+    height: 2000px;
     background-color: black;
     opacity: 0.2;
     border-style: dashed;
