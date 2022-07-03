@@ -259,7 +259,7 @@ div.ImageBackground {
 .Notif {
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(IMG/Empty.png);
+    background-image: url(IMG/Alarmio.jpg);
     background-size: 100% 100%;
     color: white;
     top: 235%;
@@ -275,7 +275,7 @@ div.ImageBackground {
 }
 
 .Notif:hover {
-    background-image: url(IMG/Empty.png);
+    background-image: url(IMG/Alarmio.gif);
 }
 
 
