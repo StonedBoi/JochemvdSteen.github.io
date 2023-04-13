@@ -99,6 +99,7 @@ div.ImageBackground {
 .MainAbsoluteText {
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*balls*/
     color: white;
     bottom: 1025px;
     left: 600px;
