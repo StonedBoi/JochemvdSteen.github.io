@@ -328,8 +328,8 @@ div.ImageBackground {
     position: absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    top: 60px;
-    left: 307.2px;
+    top: 20%;
+    left: 7%;
     width: 900px;
     height: 300px;
     z-index: 1;
