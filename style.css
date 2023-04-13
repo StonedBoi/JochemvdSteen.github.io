@@ -304,7 +304,7 @@ div.ImageBackground {
     top: 8.5%;
     left: 4.5%;
     width: 90%;
-    height: 2000px;
+    height: 2200px;
     background-color: black;
     opacity: 0.2;
     border-style: dashed;
@@ -329,7 +329,7 @@ div.ImageBackground {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     top: 20%;
-    left: 7%;
+    left: 22.5%;
     width: 900px;
     height: 300px;
     z-index: 1;
