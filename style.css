@@ -325,7 +325,7 @@ div.ImageBackground {
 }
 
 .ContactText1 {
-    position: relative;
+    position: absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     top: 60px;
