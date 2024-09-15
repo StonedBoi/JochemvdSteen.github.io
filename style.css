@@ -277,13 +277,57 @@ div.ImageBackground {
     background-image: url(IMG/GameJam.gif);
 }
 
+.Horror {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(IMG/Horrors.jpg);
+    background-size: 100% 100%;
+    color: white;
+    top: 125%;
+    left: 10%;
+    width: 600px;
+    height: 340px;
+    opacity: 0.7;
+    z-index: 1;
+    border-style:double;
+    border-width: 2px;
+    border-color: purple;
+    box-shadow: 0px 0px 15px pink;
+}
+
+.Horror:hover {
+    background-image: url(IMG/Horrors.gif);
+}
+
+.DOOM {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(IMG/Doom.jpg);
+    background-size: 100% 100%;
+    color: white;
+    top: 180%;
+    right: 10%;
+    width: 600px;
+    height: 340px;
+    opacity: 0.7;
+    z-index: 1;
+    border-style:double;
+    border-width: 2px;
+    border-color: purple;
+    box-shadow: 0px 0px 15px pink;
+}
+
+.DOOM:hover {
+    background-image: url(IMG/Doom.gif);
+}
+
 .ARTarget {
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(IMG/ARTarget.jpg);
     background-size: 100% 100%;
     color: white;
-    top: 125%;
+    top: 235%;
     left: 10%;
     width: 600px;
     height: 340px;
@@ -299,13 +343,13 @@ div.ImageBackground {
     background-image: url(IMG/ARTarget.gif);
 }
 
-.Agile {
+.DeskSort {
     position: absolute;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(IMG/Silicon.jpg);
+    background-image: url(IMG/Desk.jpg);
     background-size: 100% 100%;
     color: white;
-    top: 180%;
+    top: 290%;
     right: 10%;
     width: 600px;
     height: 340px;
@@ -317,30 +361,8 @@ div.ImageBackground {
     box-shadow: 0px 0px 15px pink;
 }
 
-.Agile:hover {
-    background-image: url(IMG/Silicon.gif);
-}
-
-.Notif {
-    position: absolute;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(IMG/Alarmio.jpg);
-    background-size: 100% 100%;
-    color: white;
-    top: 235%;
-    left: 10%;
-    width: 600px;
-    height: 340px;
-    opacity: 0.7;
-    z-index: 1;
-    border-style:double;
-    border-width: 2px;
-    border-color: purple;
-    box-shadow: 0px 0px 15px pink;
-}
-
-.Notif:hover {
-    background-image: url(IMG/Alarmio.gif);
+.DeskSort:hover {
+    background-image: url(IMG/Desk.gif);
 }
 
 
@@ -367,7 +389,7 @@ div.ImageBackground {
     top: 8.5%;
     left: 4.5%;
     width: 90%;
-    height: 2200px;
+    height: 2640px;
     background-color: black;
     opacity: 0.2;
     border-style: dashed;
